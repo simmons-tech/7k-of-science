@@ -1,0 +1,334 @@
+p {
+	text-color: #000000;
+}
+
+h2 {
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+#controlButtons {
+	float: right;
+	
+	}
+	
+body {
+	background-color: #888888;
+	color: #FFFFFF;
+	-webkit-backface-visibility: hidden;
+}
+	
+#place2 {
+	
+}
+
+#place1 {
+}
+
+.ui-jcoverflip {
+	position: relative;
+  }
+ 
+.ui-jcoverflip--item {
+position: absolute;
+display: block;
+}
+  
+  
+  
+/* Basic jCoverflip CSS */
+.ui-jcoverflip {
+position: relative;
+}
+
+.ui-jcoverflip--item {
+position: absolute;
+display: block;
+}
+
+/* Basic sample CSS */
+.theslider {
+height: 120px;
+width: 100%;
+margin-bottom: 50px;
+
+}
+
+.theslider .ui-jcoverflip--title {
+position: absolute;
+bottom: -30px;
+width: 100%;
+text-align: center;
+color: #555;
+}
+
+.theslider img {
+display: block;
+border: 0;
+outline: none;
+}
+
+.theslider a {
+	outline: none;
+}
+
+
+ul,
+ul li {
+margin: 10px;
+padding: 0;
+display: block;
+list-style-type: none;
+} 
+  
+#flip {
+	background-color: #FFF040;
+	z-index: 0;
+}
+
+#flip2 {
+	z-index: 0;
+	background-color: #4D54D8;
+}
+
+#flip3 {
+	background-color: #FF4040;
+	z-index: 0;
+
+}
+
+.theslider a {
+	color: #FFFFFF;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-decoration: none;
+	margin: 0px;
+	left: 50%;
+}
+
+#flip a {
+	background-color: #FF4040;
+	margin: 0 auto;
+}
+
+#flip2 a {
+	background-color: #FFF040;
+	margin: 0 auto;
+}
+
+#flip3 a {
+	background-color: #4D54D8;
+	margin: 0 auto;
+}
+
+.label {
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	font-weight: bold;
+	margin-left:auto;
+	margin-right:auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	z-index: 9999;
+	position: relative;
+	left: 10px;
+	top: -29px;
+	padding: 5px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.tableImg {
+	text-align: center;
+	background-color: #B8B8B8;
+}
+
+td, th {
+	text-align: center;
+	background-color: #B8B8B8;
+	color: #FFFFFF;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	padding: 3px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+.popup {
+	color: #FFFFFF;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	/*text-decoration: none;*/
+}
+
+#label1 {
+	background-color: #4D54D8;
+}
+
+#label2 {
+	background-color: #FF4040;
+}
+
+#label3 {
+	background-color: #FFF040;	
+}
+
+.ui-jcoverflip--item {
+/*	background-color: #FFFFFF;*/
+
+}
+
+form {
+	text-align: center;
+}
+
+#placeholderdiv {
+	margin: 0px;
+
+}
+
+#fullscreenbody {
+	margin: 0px;
+	overflow: hidden;
+}
+
+.prettyForm {
+	font-size: x-large;	
+	color: #FFFFFF;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#cancelBtn {
+	float: right;
+}
+
+.popupText {
+	text-align: center;
+}
+
+#centerMe {
+	text-align: center;
+}
+
+#s1 {
+	position: fixed;
+	top: -96px;
+	left: 0px;
+	width: 10483px;
+	height: 2752px;
+}
+
+#s2 {
+	position: fixed;
+	top: -72px;
+	left: -596px;
+	width: 7487px;
+	height: 1973px;
+}
+
+#s3 {
+	position: fixed;
+	top: -592px;
+	left: -1748px;
+	width: 9250px;
+	height: 2439px;
+}
+
+#s4 {
+	position: fixed;
+	top: -1994px;
+	left: -64px;
+	width: 10434px;
+	height: 2764px;
+}
+
+#s5 {
+	position: fixed;
+	top: -1994px;
+	left: -1474px;
+	width: 10434px;
+	height: 2764px;
+}
+
+#s6 {
+	position: fixed;
+	top: -1994px;
+	left: -2868px;
+	width: 10434px;
+	height: 2764px;
+}
+
+#s7 {
+	position: fixed;
+	top: 0px;
+	left: -2995px;
+	width: 7280px;
+	height: 1920px;
+}
+
+#s8 {
+	position: fixed;
+	top: -4px;
+	left: -4270px;
+	width: 7487px;
+	height: 2073px;
+}
+
+#s9 {
+	position: fixed;
+	top: -745px;
+	left: -5120px;
+	width: 7487px;
+	height: 2116px;
+}
+
+#s10 {
+	position: fixed;
+	top: -145px;
+	left: -8318px;
+	width: 10483px;
+	height: 2900px;
+}
+
+#s11 {
+	position: fixed;
+	top: -133px;
+	left: -9075px;
+	width: 10434px;
+	height: 2764px;
+}
+
+#s12 {
+	position: fixed;
+	top: -1355px;
+	left: -7330px;
+	width: 9250px;
+	height: 2439px;
+}
+
+
+
+/**
+BufferedImage source, String outputName, int x, int y, int width, int height, int newWidth, int newHeight
+
+getWidthHeight(" 01.png",0,67,500,893,720,1280)
+getWidthHeight(" 02.png",580,71,700,1245,720,1280)
+getWidthHeight(" 03.png",1376,466,1511,850,1920,1080)
+getWidthHeight(" 04.png",45,1420,893,500,1280,720)
+getWidthHeight(" 05.png",1029,1420,893,500,1280,720)
+getWidthHeight(" 06.png",2001,1420,893,500,1280,720)
+getWidthHeight(" 07.png",2995,0,1080,1920,1080,1920)
+getWidthHeight(" 08.png",4181,4,700,1245,720,1280)
+getWidthHeight(" 09.png",4978,675,700,1245,720,1280)
+getWidthHeight(" 10.png",5777,91,500,893,720,1280)
+getWidthHeight(" 11.png",6375,93,893,500,1280,720)
+getWidthHeight(" 12.png",5769,1067,1511,850,1920,1080)
+
+
+*/
