@@ -34,8 +34,8 @@ function loopAdvance() {
 }
 
 function loopUpdate() {
-	update();
-	setTimeout("loopUpdate()",howOftenUpdate);
+	//update();
+	//setTimeout("loopUpdate()",howOftenUpdate);
 }
 
 

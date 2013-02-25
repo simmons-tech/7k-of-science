@@ -216,7 +216,9 @@ form {
 	text-align: center;
 }
 
-#s1 {
+
+
+#olds1 {
 	position: fixed;
 	top: -96px;
 	left: 0px;
@@ -224,7 +226,7 @@ form {
 	height: 2752px;
 }
 
-#s2 {
+#olds2 {
 	position: fixed;
 	top: -72px;
 	left: -596px;
@@ -232,7 +234,7 @@ form {
 	height: 1973px;
 }
 
-#s3 {
+#olds3 {
 	position: fixed;
 	top: -592px;
 	left: -1748px;
@@ -240,7 +242,7 @@ form {
 	height: 2439px;
 }
 
-#s4 {
+#olds4 {
 	position: fixed;
 	top: -1994px;
 	left: -64px;
@@ -248,7 +250,7 @@ form {
 	height: 2764px;
 }
 
-#s5 {
+#olds5 {
 	position: fixed;
 	top: -1994px;
 	left: -1474px;
@@ -256,7 +258,7 @@ form {
 	height: 2764px;
 }
 
-#s6 {
+#olds6 {
 	position: fixed;
 	top: -1994px;
 	left: -2868px;
@@ -264,7 +266,7 @@ form {
 	height: 2764px;
 }
 
-#s7 {
+#olds7 {
 	position: fixed;
 	top: 0px;
 	left: -2995px;
@@ -272,7 +274,7 @@ form {
 	height: 1920px;
 }
 
-#s8 {
+#olds8 {
 	position: fixed;
 	top: -4px;
 	left: -4270px;
@@ -280,7 +282,7 @@ form {
 	height: 2073px;
 }
 
-#s9 {
+#olds9 {
 	position: fixed;
 	top: -745px;
 	left: -5120px;
@@ -288,7 +290,7 @@ form {
 	height: 2116px;
 }
 
-#s10 {
+#olds10 {
 	position: fixed;
 	top: -145px;
 	left: -8318px;
@@ -296,7 +298,7 @@ form {
 	height: 2900px;
 }
 
-#s11 {
+#olds11 {
 	position: fixed;
 	top: -133px;
 	left: -9075px;
@@ -304,7 +306,7 @@ form {
 	height: 2764px;
 }
 
-#s12 {
+#olds12 {
 	position: fixed;
 	top: -1355px;
 	left: -7330px;

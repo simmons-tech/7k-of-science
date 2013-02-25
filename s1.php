@@ -2,7 +2,7 @@
 	<?php
 	include('globalsetup.php');
   	include('picasaFunctions.php');
-  		setupHeader();
+  		setupPanelHeader();
   		//Could directly pass to JSON...
   		//Or...
 	?>

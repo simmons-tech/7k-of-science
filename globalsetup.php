@@ -32,6 +32,18 @@ function setupHeader() {
 	</head>');
 }
 
+function setupPanelHeader() {
+	print('<head>
+	<title>Simmons Display</title>
+	<link rel="stylesheet" type="text/css" href="panel.css">
+	
+	<script type="text/javascript" src="Libraries/jquery.js"></script>
+	<script type="text/javascript" src="Libraries/jquery.ui.js"></script>
+	<script type="text/javascript" src="Libraries/jquery.jcoverflip.js"></script>
+	
+	</head>');
+}
+
 
 function setupDatabase() {
 	global $sqlserver, $sqlusername, $sqlpassword, $sqldatabase;

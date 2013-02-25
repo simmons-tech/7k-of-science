@@ -11,7 +11,7 @@
 
 <script language="JavaScript1.2">
 
-var howOften = <?php printHowOftenDisplay() ?>; //number often in seconds to rotate
+var howOften = <?php printHowOftenAdvance() ?>; //number often in seconds to rotate
 var current = 0; //start the counter at 0
 var ns6 = document.getElementById&&!document.all; //detect netscape 6
 
@@ -28,7 +28,7 @@ printLiveDisplayItemArray($items);
 function rotater() {
     document.getElementById("placeholder").innerHTML = items[current];
     current = (current==items.length-1) ? 0 : current + 1;
-    setTimeout("rotater()",howOften*1000);
+    setTimeout("rotater()",howOftenAdvance);
 }
 
 function rotater() {
@@ -41,7 +41,7 @@ function rotater() {
             placeholderdiv.innerHTML=items[current];
 
     current = (current==items.length-1) ? 0 : current + 1; //increment or reset
-    setTimeout("rotater()",howOften*1000);
+    setTimeout("rotater()",howOftenAdvance);
 }
 window.onload=rotater;
 //-->
