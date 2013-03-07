@@ -12,20 +12,20 @@
 	  
 	  //alert("Preshifted");
 	  
-	  //$(window).load(function() {
-	  $(document).ready(function() {
-	  	$('#flip').jcoverflip();
-	 	$('#flip2').jcoverflip();
-	 	$('#flip3').jcoverflip();
-	  
-	  	//alert("midshifted");
-	  });
-	  
 	  $(window).load(function() {
 	  //$(document).ready(function() {
 	  	$('#flip').jcoverflip();
 	 	$('#flip2').jcoverflip();
 	 	$('#flip3').jcoverflip();
+	 	
+	 	//$(window).load(function() {
+		  $(document).ready(function() {
+			$('#flip').jcoverflip();
+			$('#flip2').jcoverflip();
+			$('#flip3').jcoverflip();
+	  
+			//alert("midshifted");
+		  });
 	  
 	  	//alert("midshifted");
 	  });

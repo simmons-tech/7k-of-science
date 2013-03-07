@@ -1,5 +1,7 @@
 <?php
 
+require_once('config.php');
+
 //Picasa Libraries
   	require_once 'Zend/Loader.php';
 		Zend_Loader::loadClass('Zend_Gdata_Photos');
@@ -8,8 +10,8 @@
 
 
 	$serviceName = Zend_Gdata_Photos::AUTH_SERVICE_NAME;
-	$picasauser = "simmons-display@mit.edu";
-	$picasapass = "SteveHoll!";
+	$picasauser = getPicasaUser();
+	$picasapass = getPicasaPassword();
 	
 	$client = Zend_Gdata_ClientLogin::getHttpClient($picasauser, $picasapass, $serviceName);
 	
@@ -129,7 +131,7 @@ function storeToPicasa() {
 		// We insert the photo, and the server returns the entry representing
 		// that photo after it is uploaded
 		
-		$picasaid = "103719939483543979810";
+		$picasaid = getPicasaID();
 		$picasaalbumid = "DisplayPics";
 		$newalb = "http://www.picasaweb.google.com/data/feed/api/user/$picasaid/album/$picasaalbumid";
 		

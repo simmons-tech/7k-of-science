@@ -5,7 +5,8 @@
   	print("Loading <br/>");
   	
   	
-  	if($myusername != "nhynes") {
+  	if(true) {
+		//$myusername != "nhynes"
 		//Add the photo, then add it and its thumbnails to the database
 		$addedPicture = storeToPicasa();
 		

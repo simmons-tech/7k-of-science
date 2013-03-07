@@ -1,8 +1,10 @@
 <?php
-	$sqlusername="adat";
-	$sqlpassword="MySQLPass!";
-	$sqldatabase="adat+simmons";
-	$sqlserver = "sql.mit.edu";
+	include('config.php');
+
+	$sqlusername = getSQLUsername();
+	$sqlpassword = getSQLPassword();
+	$sqldatabase = getSQLDatabase();
+	$sqlserver = getSQLServer();
 	$myname = $_SERVER['SSL_CLIENT_S_DN_CN'];
 	$myemail = $_SERVER['SSL_CLIENT_S_DN_Email'];
 	$myusername = substr($myemail, 0, strpos($myemail, "@"));
@@ -410,7 +412,7 @@ $counter = 0;
 		
 		echo "items[" . $counter . ']="';
 		echo "<img id='s" . $section . "' alt='Please contact Simmons Tech'";
-		echo " src='" . $row['fileLocation'] . "' height='" . $height . "' width='" . $width . "' border='0' />";
+		echo " src='" . $row['fileLocation'] . "' height='" . $height . "' width='" . $width . "' border='0' opacity='0'/>";
 		echo'";
 		
 		';
