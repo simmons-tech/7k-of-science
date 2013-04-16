@@ -216,6 +216,11 @@ form {
 	text-align: center;
 }
 
+#container {
+	position:absolute;
+	left:0;
+	right:0;
+}
 
 
 #olds1 {
@@ -315,6 +320,17 @@ form {
 }
 
 
+.date {
+	display: none;
+}
+
+.user {
+	display: none;
+}
+
+.active {
+	display: none;
+}
 
 /**
 BufferedImage source, String outputName, int x, int y, int width, int height, int newWidth, int newHeight

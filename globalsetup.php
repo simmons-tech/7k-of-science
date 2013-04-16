@@ -293,6 +293,56 @@ function closeAndReloadParent() {
 		
 }
 
+function showGridUserPhotos($result) {
+//     <div class="element other nonmetal   " data-symbol="H" data-category="other">
+//       <p class="number">1</p>
+//       <h3 class="symbol">H</h3>
+//       <h2 class="name">Hydrogen</h2>
+//       <p class="weight">1.00794</p>
+//     </div>
+    
+    global $myusername;
+
+
+	while($row = mysql_fetch_array($result)) {
+		$url = 'picLookup.php?picId=' . $row['id'];
+		
+		$urlpic = $row['thumbLocation'];
+		$contentURL =  str_replace("s144", "s300", $urlpic);
+
+		echo '<div class="element">';
+		echo '<p class="date">' . $row['timeCreated'] . '</p> 
+    		<p class="user">' . $row['ownerUsername'] . '</p> 
+    		<p class="active">' . $row['onDisplay'] . '</p> ';
+		//Image
+		
+		echo '<a href="' . $url . '" class="editLink"  '
+		;
+		
+		
+		
+		echo  'onclick="javascript:void window.open(\'' . $url . '\',\'1352593439021\',\'width=400,height=350,toolbar=0,menubar=0,location=0,status=1,scrollbars=0,resizable=1,left=0,top=0\');return false;">';
+
+		
+		echo '<img src="' . $contentURL . '" alt="Pic" width="300px" height="80px">
+		';
+		
+		//Link javascript popup		
+		echo "</img></a>
+		
+		";
+		
+		echo "";
+		//Insert title here
+		
+		
+		echo'</div>';
+	
+	  }
+    
+    
+}
+
 function showSliderUserPhotos($result) {
 	global $myusername;
 
@@ -435,9 +485,33 @@ function printHowOftenUpdate() {
 function printControlButtons() {
 		print('<div id="controlButtons">');
 		print("	<a href=\"addPicPopup.php\" onclick=\"javascript:void window.open('addPicPopup.php','1352593439001','width=500,height=150,toolbar=0,menubar=0,location=0,status=1,scrollbars=0,resizable=1,left=0,top=0');return false;\">");
-		print('<img src="http://aux.iconpedia.net/uploads/1331050018396872710.png" alt="Add Image" height="42" width="42"> ');
+		print('<img src="http://cdn1.iconfinder.com/data/icons/prettyoffice/128/add1-.png" alt="Add Image" height="42" width="42"> ');
 		print("</a>");
 }
+
+function printGridControls() {
+	echo '
+	<section id="options" class="clearfix">
+    <h3>Sort</h3>
+    <ul id="sort-by" class="option-set clearfix" data-option-key="sortBy">
+	<li><a href="#sortBy=date" data-option-value="date">date</a></li>
+	<li><a href="#sortBy=user" data-option-value="user">user</a></li>
+	<li><a href="#sortBy=active" data-option-value="active">active</a></li>
+
+	</ul>
+	</section>';
+	
+	echo"<script>
+	  $('#sort-by a').click(function(){
+	  // get href attribute, minus the '#'
+	  var sortName = $(this).attr('href').slice(1);
+	  $('#container').isotope({ sortBy : sortName });
+	  return false;
+	});
+	
+	</script>";
+	
+	}
 
 function printAdminStatus() {
 	global $isAdmin, $isResident;

@@ -3,8 +3,6 @@
 	include('globalsetup.php');
   	include('picasaFunctions.php');
   		setupHeader();
-  		//Could directly pass to JSON...
-  		//Or...
   		
 	?>
 	

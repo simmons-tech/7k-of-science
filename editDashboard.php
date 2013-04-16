@@ -25,13 +25,25 @@
 </style>
 	
 	<script>
-	  $(function(){
-		$('#flip').jcoverflip();
+	  
+	  //alert("Preshifted");
+	  
+	  $(window).load(function() {
+	  //$(document).ready(function() {
+	  	$('#flip').jcoverflip();
 	 	$('#flip2').jcoverflip();
 	 	$('#flip3').jcoverflip();
+	 	
+	 	//$(window).load(function() {
+		  $(document).ready(function() {
+			$('#flip').jcoverflip();
+			$('#flip2').jcoverflip();
+			$('#flip3').jcoverflip();
+	  
+		  });
+	  
 	  });
-	  
-	  
+	  	  
 	</script>
 	
 	<body>
